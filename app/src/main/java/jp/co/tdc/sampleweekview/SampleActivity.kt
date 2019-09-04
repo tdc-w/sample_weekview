@@ -35,14 +35,6 @@ class SampleActivity : AppCompatActivity() {
                 it.filter { eventMatches(it.toWeekViewEvent(), newYear, newMonth) }
             } ?: listOf()
         }
-
-        weekView.scrollListener = object : ScrollListener {
-            override fun onFirstVisibleDayChanged(
-                @NonNull newFirstVisibleDay: Calendar,
-                @Nullable oldFirstVisibleDay: Calendar?
-            ) {
-            }
-        }
     }
 
     private fun setupViewModel() {
