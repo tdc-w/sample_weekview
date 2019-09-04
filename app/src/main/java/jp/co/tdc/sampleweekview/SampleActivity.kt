@@ -41,7 +41,6 @@ class SampleActivity : AppCompatActivity() {
                 @NonNull newFirstVisibleDay: Calendar,
                 @Nullable oldFirstVisibleDay: Calendar?
             ) {
-                viewModel.updateFirstVisibleDate(newFirstVisibleDay)
             }
         }
     }

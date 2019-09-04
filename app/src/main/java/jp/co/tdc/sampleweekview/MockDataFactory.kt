@@ -149,6 +149,8 @@ object MockDataFactory {
         val prevLastDate = prevMonth.getActualMaximum(Calendar.DATE)
         startTime.set(Calendar.MONTH, prevMonth.get(Calendar.MONTH))
         startTime.set(Calendar.DATE, prevLastDate)
+//        startTime.set(Calendar.MONTH, newMonth)
+        startTime.set(Calendar.DATE, 1)
         startTime.set(Calendar.HOUR_OF_DAY, 0)
         startTime.set(Calendar.MINUTE, 0)
         startTime.set(Calendar.YEAR, newYear)
