@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.alamkanak.weekview.WeekView
+        android:id="@+id/weekView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnGap="1dp"
+        app:eventCornerRadius="4dp"
+        app:eventPadding="4dp"
+        app:eventTextColor="#ffffff"
+        app:headerRowBottomLineColor="#c4c4c4"
+        app:headerRowBottomLineWidth="1dp"
+        app:headerRowPadding="12dp"
+        app:hourHeight="60dp"
+        app:nowLineColor="#993333"
+        app:nowLineDotColor="#993333"
+        app:nowLineDotRadius="5dp"
+        app:nowLineStrokeWidth="1dp"
+        app:numberOfVisibleDays="3"
+        app:overlappingEventGap="1dp"
+        app:showCurrentTimeFirst="true"
+        app:showHeaderRowBottomLine="true"
+        app:showNowLine="true"
+        app:showNowLineDot="true"
+        app:showTimeColumnSeparator="true"
+        app:singleDayHorizontalMargin="8dp"
+        app:singleLineHeader="false"
+        app:timeColumnBackgroundColor="#ffffff"
+        app:timeColumnPadding="8dp"
+        app:timeColumnSeparatorColor="#c4c4c4"
+        app:timeColumnSeparatorStrokeWidth="1dp"
+        app:timeColumnTextColor="#000000"
+        app:timeColumnTextSize="12sp"
+        app:todayHeaderTextColor="#449922"
+        app:todayBackgroundColor="#b4b4b4"
+        app:maxHourHeight="60dp"
+        app:minHourHeight="60dp"
+        />
+
+</FrameLayout>
